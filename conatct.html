@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Contactez-nous</h2>
+
+    <form action="#">
+        <label for="nom_complet">Nom complet:</label><br>
+        <input type="text" id="nom_complet" name="nom_complet" required><br>
+
+        <label for="adresse_email">Adresse email:</label><br>
+        <input type="email" id="adresse_email" name="adresse_email" required><br>
+
+        <label for="objet_message">Objet du message:</label><br>
+        <input type="text" id="objet_message" name="objet_message" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Envoyer" id="btn">
+    </form>
+
+</body>
+
+</html>
